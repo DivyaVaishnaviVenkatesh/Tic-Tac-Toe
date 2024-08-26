@@ -8,7 +8,6 @@
 > - [ Overview](#-overview)
 > - [ Features](#-features)
 > - [ Repository Structure](#-repository-structure)
-> - [ Modules](#-modules)
 > - [ Getting Started](#-getting-started)
 >   - [ Installation](#-installation)
 > - [ Output](#-Output)
@@ -58,20 +57,6 @@ Buttons for resetting and starting a new game are provided for easy interaction.
     ├── index.html
     └── style.css
 ```
-
----
-
-##  Modules
-
-<details closed><summary>.</summary>
-
-| File                                                                                            | Summary                                |
-| ---                                                                                             | ---                                    |
-| [index.html](https://github.com/DivyaVaishnaviVenkatesh/Tic-Tac-Toe.git/blob/master/index.html) | |
-| [style.css](https://github.com/DivyaVaishnaviVenkatesh/Tic-Tac-Toe.git/blob/master/style.css)   ||
-| [app.js](https://github.com/DivyaVaishnaviVenkatesh/Tic-Tac-Toe.git/blob/master/app.js)         |    |
-
-</details>
 
 ---
 
