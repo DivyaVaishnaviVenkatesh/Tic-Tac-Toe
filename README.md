@@ -1,24 +1,5 @@
 <p align="center">
-  <img src="https://cdn-icons-png.flaticon.com/512/6295/6295417.png" width="100" />
-</p>
-<p align="center">
     <h1 align="center">TIC-TAC-TOE</h1>
-</p>
-<p align="center">
-    <em>HTTP error 401 for prompt `slogan`</em>
-</p>
-<p align="center">
-	<img src="https://img.shields.io/github/license/DivyaVaishnaviVenkatesh/Tic-Tac-Toe.git?style=flat&color=0080ff" alt="license">
-	<img src="https://img.shields.io/github/last-commit/DivyaVaishnaviVenkatesh/Tic-Tac-Toe.git?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
-	<img src="https://img.shields.io/github/languages/top/DivyaVaishnaviVenkatesh/Tic-Tac-Toe.git?style=flat&color=0080ff" alt="repo-top-language">
-	<img src="https://img.shields.io/github/languages/count/DivyaVaishnaviVenkatesh/Tic-Tac-Toe.git?style=flat&color=0080ff" alt="repo-language-count">
-<p>
-<p align="center">
-		<em>Developed with the software and tools below.</em>
-</p>
-<p align="center">
-	<img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=flat&logo=JavaScript&logoColor=black" alt="JavaScript">
-	<img src="https://img.shields.io/badge/HTML5-E34F26.svg?style=flat&logo=HTML5&logoColor=white" alt="HTML5">
 </p>
 <hr>
 
@@ -30,24 +11,41 @@
 > - [ Modules](#-modules)
 > - [ Getting Started](#-getting-started)
 >   - [ Installation](#-installation)
->   - [ Running Tic-Tac-Toe](#-running-Tic-Tac-Toe)
->   - [ Tests](#-tests)
-> - [ Project Roadmap](#-project-roadmap)
-> - [ Contributing](#-contributing)
-> - [ License](#-license)
-> - [ Acknowledgments](#-acknowledgments)
+> - [ Output](#-Output)
+
 
 ---
 
 ##  Overview
 
-HTTP error 401 for prompt `overview`
+This project is a simple, interactive Tic-Tac-Toe game developed using HTML, CSS, and JavaScript. The game allows two players to take turns placing their symbols ("O" and "X") on a 3x3 grid, aiming to create a straight line horizontally, vertically, or diagonally. The project demonstrates essential front-end development skills, including DOM manipulation, event handling, and basic game logic implementation.
 
 ---
 
 ##  Features
 
-HTTP error 401 for prompt `features`
+1.Interactive Gameplay:
+Players take turns clicking on the grid to place their symbol ("O" or "X").
+The game automatically disables a box once a symbol is placed to prevent overwriting.
+
+2.Win Detection:
+The game checks for winning combinations after each move using predefined patterns.
+If a player achieves a winning combination, the game announces the winner.
+
+3.Draw Detection:
+If all boxes are filled without any player winning, the game declares a draw.
+
+4.Visual Feedback:
+Different colors are used for "O" and "X" to easily distinguish between the two players (e.g., "O" in green and "X" in red).
+A message container displays the winner or announces a draw.
+
+5.Game Reset and New Game:
+Players can reset the current game or start a new game at any time, clearing the board and resetting the turn.
+The game state (turn, filled boxes) is reset, allowing for a fresh start.
+
+6.User-Friendly Interface:
+The game features a simple and clean interface with clear indications of the current game state.
+Buttons for resetting and starting a new game are provided for easy interaction.
 
 ---
 
@@ -69,9 +67,9 @@ HTTP error 401 for prompt `features`
 
 | File                                                                                            | Summary                                |
 | ---                                                                                             | ---                                    |
-| [index.html](https://github.com/DivyaVaishnaviVenkatesh/Tic-Tac-Toe.git/blob/master/index.html) | HTTP error 401 for prompt `index.html` |
-| [style.css](https://github.com/DivyaVaishnaviVenkatesh/Tic-Tac-Toe.git/blob/master/style.css)   | HTTP error 401 for prompt `style.css`  |
-| [app.js](https://github.com/DivyaVaishnaviVenkatesh/Tic-Tac-Toe.git/blob/master/app.js)         | HTTP error 401 for prompt `app.js`     |
+| [index.html](https://github.com/DivyaVaishnaviVenkatesh/Tic-Tac-Toe.git/blob/master/index.html) | |
+| [style.css](https://github.com/DivyaVaishnaviVenkatesh/Tic-Tac-Toe.git/blob/master/style.css)   ||
+| [app.js](https://github.com/DivyaVaishnaviVenkatesh/Tic-Tac-Toe.git/blob/master/app.js)         |    |
 
 </details>
 
@@ -98,86 +96,11 @@ git clone https://github.com/DivyaVaishnaviVenkatesh/Tic-Tac-Toe.git
 ```sh
 cd Tic-Tac-Toe
 ```
-
-3. Install the dependencies:
-
-```sh
-> INSERT-INSTALL-COMMANDS
-```
-
-###  Running Tic-Tac-Toe
-
-Use the following command to run Tic-Tac-Toe:
-
-```sh
-> INSERT-RUN-COMMANDS
-```
-
-###  Tests
-
-To execute tests, run:
-
-```sh
-> INSERT-TEST-COMMANDS
-```
-
 ---
 
-##  Project Roadmap
+##  Output
 
-- [X] `► INSERT-TASK-1`
-- [ ] `► INSERT-TASK-2`
-- [ ] `► ...`
 
----
+---![output23 (2)](https://github.com/user-attachments/assets/872e64f3-722a-4b11-b1a1-8ad36352f416)
 
-##  Contributing
 
-Contributions are welcome! Here are several ways you can contribute:
-
-- **[Submit Pull Requests](https://github.com/DivyaVaishnaviVenkatesh/Tic-Tac-Toe.git/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
-- **[Join the Discussions](https://github.com/DivyaVaishnaviVenkatesh/Tic-Tac-Toe.git/discussions)**: Share your insights, provide feedback, or ask questions.
-- **[Report Issues](https://github.com/DivyaVaishnaviVenkatesh/Tic-Tac-Toe.git/issues)**: Submit bugs found or log feature requests for Tic-tac-toe.
-
-<details closed>
-    <summary>Contributing Guidelines</summary>
-
-1. **Fork the Repository**: Start by forking the project repository to your GitHub account.
-2. **Clone Locally**: Clone the forked repository to your local machine using a Git client.
-   ```sh
-   git clone https://github.com/DivyaVaishnaviVenkatesh/Tic-Tac-Toe.git
-   ```
-3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
-   ```sh
-   git checkout -b new-feature-x
-   ```
-4. **Make Your Changes**: Develop and test your changes locally.
-5. **Commit Your Changes**: Commit with a clear message describing your updates.
-   ```sh
-   git commit -m 'Implemented new feature x.'
-   ```
-6. **Push to GitHub**: Push the changes to your forked repository.
-   ```sh
-   git push origin new-feature-x
-   ```
-7. **Submit a Pull Request**: Create a PR against the original project repository. Clearly describe the changes and their motivations.
-
-Once your PR is reviewed and approved, it will be merged into the main branch.
-
-</details>
-
----
-
-##  License
-
-This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
-
----
-
-##  Acknowledgments
-
-- List any resources, contributors, inspiration, etc. here.
-
-[**Return**](#-quick-links)
-
----
